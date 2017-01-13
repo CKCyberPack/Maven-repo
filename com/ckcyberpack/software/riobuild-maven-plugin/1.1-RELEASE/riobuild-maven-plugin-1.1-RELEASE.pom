@@ -95,9 +95,6 @@
                         ${project.build.directory}/mvn-repo
                     </outputDirectory>
                     <!--<branch>refs/heads/riobuild</branch>             &lt;!&ndash; remote branch name &ndash;&gt;-->
-                    <!--<includes>-->
-                        <!--<include>**/*</include>-->
-                    <!--</includes>-->
                     <merge>true</merge>                              <!-- don't delete old artifacts -->
                     <repositoryName>Maven-repo</repositoryName>      <!-- github repo name -->
                     <repositoryOwner>CKCyberPack</repositoryOwner>   <!-- github username  -->
